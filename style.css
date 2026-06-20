@@ -1,0 +1,11 @@
+div{
+    text-align: inherit;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: initial;
+    font-weight: 300;
+}
+
+body {
+    background-image: url('hacker.jpeg');
+}

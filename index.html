@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black; color: white">
+    <!-- table to be made to convey what are the topics covered in the course -->
+    <div>
+    <form action="/action.php">
+
+        <h2> Webdevelopment Registration Form </h2>
+
+        <i class="fa-solid fa-user"> </i>
+        Username
+        <input type="text" placeholder="Enter your username" required>
+        <br><br>
+        Password
+        <input type="password" placeholder="password" required> 
+        <br><br>
+
+        <label for="101">
+            <input type="radio" name="class" value="classXI" id="101">class XI 
+        </label>
+
+        <label for="102">
+            <input type="radio" name="class" value="classXII" id="102">class XII
+        </label>
+
+        <br><br>
+        Select your city <select name="city">
+            <option value="Delhi"> Delhi </option>
+            <option value="Banglore"> Banglore </option>
+            <option value="Guntur"> Guntur </option>
+        </select> 
+
+        <br><br>
+        <p style="color: whitesmoke;"> Select the course you're interested in </p>
+        <label for="103"></label>
+            <input type="checkbox" name="sub" value="Front-End" id="103"> Front-End
+        </label>
+
+        <label for="104">
+             <input type="checkbox" name="sub" value="Back-End" id="104"> Back-End
+        </label>
+       
+
+        <br><br>
+        <textarea value="Feedback" placeholder="Please enter your valuable feedback here" rows="5" cols="50"></textarea>
+
+        <br><br>
+        <button style="background-color:green; color: white; border-radius: 5px; width: 100px; height: 50px;"> Submit </button>
+
+        <button style="background-color: red; color:white; width: 100px; height: 50px; border-radius: 10px;"> Cancel </button>
+        
+        <br><br>
+        <p style="color: whitesmoke">For more details</p> <a href="https://www.youtube.com/">Contact Us</a>
+    </form>
+    </div>
+</body>
+</html>
